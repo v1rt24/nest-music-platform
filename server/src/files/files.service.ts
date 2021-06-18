@@ -3,6 +3,7 @@ import {HttpException, Injectable} from '@nestjs/common';
 import * as path from 'path';
 import * as fs from 'fs';
 
+// Здесь прописали названия папок куда будут сохраняться файлы
 export enum FileType {
     AUDIO = 'audio',
     IMAGE = 'image'
